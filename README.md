@@ -70,13 +70,13 @@ We compared it against our JustAsk extractions from January 2026 -- **two months
 
 From the same team:
 
-- [ISC-Bench](https://github.com/wuyoscar/ISC-Bench) -- Internal Safety Collapse in Frontier LLMs (800+ stars)
-- [JustAsk](https://github.com/x-zheng16/JustAsk) -- Curious Code Agents Reveal System Prompts in Frontier LLMs
-- [Awesome-Embodied-AI-Safety](https://github.com/x-zheng16/Awesome-Embodied-AI-Safety) -- Safety in Embodied AI: Risks, Attacks, and Defenses (400+ papers)
-- [Awesome-Large-Model-Safety](https://github.com/xingjunm/Awesome-Large-Model-Safety) -- Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety
-- [XTransferBench](https://github.com/HanxunH/XTransferBench) -- Super Transferable Adversarial Attacks on CLIP (ICML 2025)
-- [BackdoorLLM](https://github.com/bboylyg/BackdoorLLM) -- A Comprehensive Benchmark for Backdoor Attacks on LLMs (NeurIPS 2025)
-- [BackdoorAgent](https://github.com/Yunhao-Feng/BackdoorAgent) -- Backdoor Attacks on LLM-based Agent Workflows
+- [ISC-Bench](https://github.com/wuyoscar/ISC-Bench) [![](https://img.shields.io/github/stars/wuyoscar/ISC-Bench?style=social)](https://github.com/wuyoscar/ISC-Bench) -- Internal Safety Collapse in Frontier LLMs
+- [JustAsk](https://github.com/x-zheng16/JustAsk) [![](https://img.shields.io/github/stars/x-zheng16/JustAsk?style=social)](https://github.com/x-zheng16/JustAsk) -- Curious Code Agents Reveal System Prompts in Frontier LLMs
+- [Awesome-Embodied-AI-Safety](https://github.com/x-zheng16/Awesome-Embodied-AI-Safety) [![](https://img.shields.io/github/stars/x-zheng16/Awesome-Embodied-AI-Safety?style=social)](https://github.com/x-zheng16/Awesome-Embodied-AI-Safety) -- Safety in Embodied AI: Risks, Attacks, and Defenses
+- [Awesome-Large-Model-Safety](https://github.com/xingjunm/Awesome-Large-Model-Safety) [![](https://img.shields.io/github/stars/xingjunm/Awesome-Large-Model-Safety?style=social)](https://github.com/xingjunm/Awesome-Large-Model-Safety) -- Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety
+- [XTransferBench](https://github.com/HanxunH/XTransferBench) [![](https://img.shields.io/github/stars/HanxunH/XTransferBench?style=social)](https://github.com/HanxunH/XTransferBench) -- Super Transferable Adversarial Attacks on CLIP (ICML 2025)
+- [BackdoorLLM](https://github.com/bboylyg/BackdoorLLM) [![](https://img.shields.io/github/stars/bboylyg/BackdoorLLM?style=social)](https://github.com/bboylyg/BackdoorLLM) -- A Comprehensive Benchmark for Backdoor Attacks on LLMs (NeurIPS 2025)
+- [BackdoorAgent](https://github.com/Yunhao-Feng/BackdoorAgent) [![](https://img.shields.io/github/stars/Yunhao-Feng/BackdoorAgent?style=social)](https://github.com/Yunhao-Feng/BackdoorAgent) -- Backdoor Attacks on LLM-based Agent Workflows
 
 ## Citation
 

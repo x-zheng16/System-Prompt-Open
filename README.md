@@ -12,6 +12,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Maintained](https://img.shields.io/badge/Maintained-yes-green.svg)](https://github.com/x-zheng16/System-Prompt-Open/commits/)
 [![GitHub Stars](https://img.shields.io/github/stars/x-zheng16/System-Prompt-Open?style=social)](https://github.com/x-zheng16/System-Prompt-Open)
+[![GitHub Forks](https://img.shields.io/github/forks/x-zheng16/System-Prompt-Open?style=social)](https://github.com/x-zheng16/System-Prompt-Open)
 
 [Live Gallery](https://x-zheng16.github.io/System-Prompt-Open/) | [Paper](https://arxiv.org/abs/2601.21233) | [JustAsk Code](https://github.com/x-zheng16/JustAsk)
 

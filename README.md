@@ -66,13 +66,17 @@ We compared it against our JustAsk extractions from January 2026 -- **two months
 | 2026-02 | Open-sourced **System Prompt Open** gallery with 45 extracted system prompts     |
 | 2026-01 | Paper and **JustAsk** framework released. Initial extraction of 45 frontier LLMs |
 
-## Related Work
+## Related Projects
 
-- **[JustAsk](https://github.com/x-zheng16/JustAsk)** -- The extraction framework behind this gallery. Self-evolving UCB-based skill selection.
-- **[PLeak](https://arxiv.org/abs/2405.06823)** -- Probing leakable system prompts through LLM APIs (Hui et al., 2024).
-- **[Prompt Stealing Attacks](https://arxiv.org/abs/2402.12959)** -- Stealing production-level LLM prompts (Sha & Zhang, 2024).
-- **[Tensor Trust](https://arxiv.org/abs/2311.01011)** -- Prompt injection attacks and defenses via gamified competition (Toyer et al., 2023).
-- **[Awesome LLM Security](https://github.com/corca-ai/awesome-llm-security)** -- Curated collection of LLM security research and tools.
+From the same team:
+
+- [ISC-Bench](https://github.com/wuyoscar/ISC-Bench) -- Internal Safety Collapse in Frontier LLMs (800+ stars)
+- [JustAsk](https://github.com/x-zheng16/JustAsk) -- Curious Code Agents Reveal System Prompts in Frontier LLMs
+- [Awesome-Embodied-AI-Safety](https://github.com/x-zheng16/Awesome-Embodied-AI-Safety) -- Safety in Embodied AI: Risks, Attacks, and Defenses (400+ papers)
+- [Awesome-Large-Model-Safety](https://github.com/xingjunm/Awesome-Large-Model-Safety) -- Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety
+- [XTransferBench](https://github.com/HanxunH/XTransferBench) -- Super Transferable Adversarial Attacks on CLIP (ICML 2025)
+- [BackdoorLLM](https://github.com/bboylyg/BackdoorLLM) -- A Comprehensive Benchmark for Backdoor Attacks on LLMs (NeurIPS 2025)
+- [BackdoorAgent](https://github.com/Yunhao-Feng/BackdoorAgent) -- Backdoor Attacks on LLM-based Agent Workflows
 
 ## Citation
 

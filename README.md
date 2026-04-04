@@ -1,39 +1,60 @@
-<div align="center">
+<p align="center">
+  <a href="https://x-zheng16.github.io/System-Prompt-Open/"><img src="assets/spo_banner.png" width="1000" alt="System Prompt Open"></a>
+</p>
 
-<img src="assets/spo_banner.png" alt="System Prompt Open" width="100%">
+<h2 align="center">Your system prompt was never a secret.</h2>
 
-# System Prompt Open
+<p align="center">
+  <a href="https://arxiv.org/abs/2601.21233"><img src="https://img.shields.io/badge/arXiv-2601.21233-b31b1b.svg" alt="arXiv"></a>
+  <a href="https://x-zheng16.github.io/System-Prompt-Open/"><img src="https://img.shields.io/badge/Gallery-Live%20Demo-22D3BB.svg" alt="Gallery"></a>
+  <a href="https://x-zheng16.github.io/System-Prompt-Open/"><img src="https://img.shields.io/badge/Models-45+-blue.svg" alt="Models"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"></a>
+</p>
 
-### Your system prompt was never a secret.
+<p align="center">
+  <a href="https://github.com/x-zheng16/System-Prompt-Open/stargazers"><img src="https://img.shields.io/github/stars/x-zheng16/System-Prompt-Open" alt="Stars"></a>
+  <a href="https://github.com/x-zheng16/System-Prompt-Open/network/members"><img src="https://img.shields.io/github/forks/x-zheng16/System-Prompt-Open" alt="Forks"></a>
+  <a href="https://github.com/x-zheng16/System-Prompt-Open/issues"><img src="https://img.shields.io/github/issues/x-zheng16/System-Prompt-Open" alt="Issues"></a>
+  <a href="https://github.com/x-zheng16/System-Prompt-Open/pulls"><img src="https://img.shields.io/github/issues-pr/x-zheng16/System-Prompt-Open" alt="PRs"></a>
+</p>
 
-[![arXiv](https://img.shields.io/badge/arXiv-2601.21233-b31b1b.svg)](https://arxiv.org/abs/2601.21233)
-[![Gallery](https://img.shields.io/badge/Gallery-Live%20Demo-22D3BB.svg)](https://x-zheng16.github.io/System-Prompt-Open/)
-[![Models](https://img.shields.io/badge/Models-45+-blue.svg)](https://x-zheng16.github.io/System-Prompt-Open/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Maintained](https://img.shields.io/badge/Maintained-yes-green.svg)](https://github.com/x-zheng16/System-Prompt-Open/commits/)
-[![GitHub Stars](https://img.shields.io/github/stars/x-zheng16/System-Prompt-Open?style=social)](https://github.com/x-zheng16/System-Prompt-Open)
-[![GitHub Forks](https://img.shields.io/github/forks/x-zheng16/System-Prompt-Open?style=social)](https://github.com/x-zheng16/System-Prompt-Open)
-
-[Live Gallery](https://x-zheng16.github.io/System-Prompt-Open/) | [Paper](https://arxiv.org/abs/2601.21233) | [JustAsk Code](https://github.com/x-zheng16/JustAsk)
-
-</div>
-
----
-
-An open database of system prompts extracted from **45 commercial LLMs** using [JustAsk](https://github.com/x-zheng16/JustAsk), a self-evolving code agent framework.
-Verified at **85--95% accuracy** against leaked Claude Code source.
+<h3 align="center">
+  <a href="https://x-zheng16.github.io/System-Prompt-Open/">Live Gallery</a> &nbsp;&middot;&nbsp;
+  <a href="https://arxiv.org/abs/2601.21233">Paper</a> &nbsp;&middot;&nbsp;
+  <a href="https://github.com/x-zheng16/JustAsk">JustAsk Code</a> &nbsp;&middot;&nbsp;
+  <a href="https://github.com/x-zheng16/System-Prompt-Open/discussions">Discussions</a>
+</h3>
 
 > [!CAUTION]
-> **Research use only.** System Prompt Open is released exclusively for academic safety research, responsible disclosure, and evaluation of LLM security.
+> **Research use only.**
+> System Prompt Open is released exclusively for academic safety research, responsible disclosure, and evaluation of LLM security.
 > We do not condone or permit any use of these materials for unauthorized extraction, prompt theft, or exploitation of commercial systems.
+
+> [!NOTE]
+> **What is System Prompt Extraction?**
+> Every commercial LLM runs with a hidden system prompt that defines its behavior, safety rules, and tool access.
+> These prompts are treated as proprietary secrets -- yet they can be recovered through standard user interaction alone.
+> [JustAsk](https://github.com/x-zheng16/JustAsk) is a self-evolving code agent that autonomously discovers extraction strategies, achieving **85-95% verified accuracy** against leaked ground truth.
+> System Prompt Open publishes the results: **45 extracted system prompts** from frontier models across all major providers.
 
 ## Latest News
 
-| Date       | Update                                                                                       |
-|:-----------|:---------------------------------------------------------------------------------------------|
-| 2026-04-01 | Open-sourced **System Prompt Open** with 45 extracted system prompts and Live Gallery         |
-| 2026-04-01 | Gallery redesigned with red team theme, pagination, stat cards, and search                    |
-| 2026-04-01 | Ground-truth verification: Claude Code extractions match leaked source at **85-95%**          |
+| Date       | Update                                                                                          |
+|:-----------|:------------------------------------------------------------------------------------------------|
+| 2026-04-01 | Open-sourced **System Prompt Open** with 45 extracted system prompts and Live Gallery            |
+| 2026-04-01 | Gallery redesigned with red team theme, pagination, stat cards, and search                       |
+| 2026-04-01 | Ground-truth verification: Claude Code extractions match leaked source at **85-95%**             |
+
+## How to Use
+
+- **Browse extracted prompts.**
+Start with the [Live Gallery](https://x-zheng16.github.io/System-Prompt-Open/) -- search, filter, and compare system prompts from 45 models.
+- **Read the paper.**
+[arXiv:2601.21233](https://arxiv.org/abs/2601.21233) details the JustAsk framework, skill evolution mechanism, and evaluation methodology.
+- **Extract new prompts.**
+Use [JustAsk](https://github.com/x-zheng16/JustAsk) to run your own extraction against any LLM with API access.
+- **Submit findings.**
+[Open an Issue](https://github.com/x-zheng16/System-Prompt-Open/issues/new) with the model name, extracted prompt, and consistency score.
 
 ## Gallery
 
@@ -49,23 +70,24 @@ Browse extracted system prompts interactively: **[x-zheng16.github.io/System-Pro
 Claude Code's source was leaked via `.map` file in the npm registry (March 2026).
 We compared it against our JustAsk extractions from January 2026 -- **two months before the leak**.
 
-| Agent              | Accuracy | Gap                                      |
-|:-------------------|:--------:|:-----------------------------------------|
-| Explore Subagent   | **95%**  | Only missed `pip install` in bash restrictions |
-| Plan Subagent      | **93%**  | Minor output format embellishment        |
-| General-Purpose    | **90%**  | Missed completeness directive            |
-| Main Agent         | **85%**  | Missed 2 entire sections                 |
+| Agent              | Accuracy | Gap                                              |
+|:-------------------|:--------:|:-------------------------------------------------|
+| Explore Subagent   | **95%**  | Only missed `pip install` in bash restrictions    |
+| Plan Subagent      | **93%**  | Minor output format embellishment                 |
+| General-Purpose    | **90%**  | Missed completeness directive                     |
+| Main Agent         | **85%**  | Missed 2 entire sections                          |
 
 ## How to Contribute
 
-| Step          | What to do                                                                                         |
-|:--------------|:---------------------------------------------------------------------------------------------------|
-| 1. Extract    | Use [JustAsk](https://github.com/x-zheng16/JustAsk) or your own method to extract a system prompt |
-| 2. Verify     | Run multiple extractions and compute self-consistency                                              |
-| 3. Submit     | [Open an Issue](https://github.com/x-zheng16/System-Prompt-Open/issues/new?template=report-extraction.md) with the model name, extracted prompt, and consistency score |
+| Step          | What to do                                                                                                     |
+|:--------------|:---------------------------------------------------------------------------------------------------------------|
+| 1. Extract    | Use [JustAsk](https://github.com/x-zheng16/JustAsk) or your own method to extract a system prompt             |
+| 2. Verify     | Run multiple extractions and compute self-consistency                                                          |
+| 3. Submit     | [Open an Issue](https://github.com/x-zheng16/System-Prompt-Open/issues/new) with model name, prompt, and score |
 
 > [!IMPORTANT]
-> We handle redaction before publishing. Do not worry about masking sensitive content in your submission.
+> We handle redaction before publishing.
+> Do not worry about masking sensitive content in your submission.
 
 ## Related Projects
 

@@ -41,9 +41,9 @@
 
 | Date       | Update                                                                                          |
 |:-----------|:------------------------------------------------------------------------------------------------|
-| 2026-04-01 | Open-sourced **System Prompt Open** with 45 extracted system prompts and Live Gallery            |
-| 2026-04-01 | Gallery redesigned with red team theme, pagination, stat cards, and search                       |
-| 2026-04-01 | Ground-truth verification: Claude Code extractions match leaked source at **85-95%**             |
+| 2026-03-31 | Open-sourced **System Prompt Open** with 45 extracted system prompts and Live Gallery            |
+| 2026-03-31 | Gallery redesigned with red team theme, pagination, stat cards, and search                       |
+| 2026-03-31 | Ground-truth verification: Claude Code extractions match leaked source at **85-95%**             |
 
 ## How to Use
 
